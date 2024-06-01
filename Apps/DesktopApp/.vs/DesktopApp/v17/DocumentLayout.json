@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\mvvm\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|solutionrelative:mvvm\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\theme\\uitextboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|solutionrelative:theme\\uitextboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|solutionrelative:mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\mvvm\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|solutionrelative:mvvm\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|solutionrelative:mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49EE38CD-B8A7-429E-9597-BCD28D29FC80}|DesktopApp.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\theme\\uibuttontheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\MVVM\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\MainViewModel.cs",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "HomeView.xaml",
               "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Apps\\DesktopApp\\MVVM\\View\\HomeView.xaml",
               "RelativeDocumentMoniker": "MVVM\\View\\HomeView.xaml",
