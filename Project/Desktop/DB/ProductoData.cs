@@ -15,7 +15,7 @@ namespace Desktop.DB
 
         static ProductoData()
         {
-            _connection = @"Server=localhost\SQLEXPRESS; Database=SistemaGestion ; Trusted_Connection=True;";
+            _connection = @"Server=localhost\SQLEXPRESS; Database=SistemaGestion; Trusted_Connection=True;";
         }
 
         public static List<Producto> ObtenerProducto(int idProducto)

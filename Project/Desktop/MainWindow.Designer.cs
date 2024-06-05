@@ -568,7 +568,7 @@
             // pVenta
             // 
             pVenta.BackColor = Color.Transparent;
-            pVenta.borderRadius = 30F;
+            pVenta.borderRadius = 15F;
             pVenta.bottom = Color.FromArgb(192, 255, 255);
             pVenta.Controls.Add(tbIdUsuarioVenta);
             pVenta.Controls.Add(tbComentarios);

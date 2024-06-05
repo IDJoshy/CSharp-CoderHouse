@@ -1,3 +1,5 @@
+using Desktop.Forms;
+
 namespace Desktop
 {
     internal static class Program
@@ -10,8 +12,21 @@ namespace Desktop
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+
+
+            bool result;
+            var mutex = new System.Threading.Mutex(true, "UniqueAppId", out result);
+
+            if (!result)
+            {
+                MessageBox.Show("Ya hay una instancia de este programa en curso.");
+                return;
+            }
+
+            GC.KeepAlive(mutex);
+
             ApplicationConfiguration.Initialize();
-            Application.Run(new MainWindow());
+            Application.Run(new LogIn());
         }
     }
 }

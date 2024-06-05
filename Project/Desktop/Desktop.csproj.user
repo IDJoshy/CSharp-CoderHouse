@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Design\CustomButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Design\CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="Design\PanelGradient.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="LogInWindow.cs">
+    <Compile Update="Forms\LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MainWindow.cs">

@@ -14,7 +14,6 @@ namespace Desktop.Design
 
         public float borderRadius { get; set; } = 30f;
 
-
         private GraphicsPath GetPath(RectangleF rectangleF, float radius)
         {
             GraphicsPath path = new GraphicsPath();

@@ -3,7 +3,6 @@ C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\bin\
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\bin\Debug\net6.0-windows\Desktop.runtimeconfig.json
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\bin\Debug\net6.0-windows\Desktop.dll
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\bin\Debug\net6.0-windows\Desktop.pdb
-C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\obj\Debug\net6.0-windows\Desktop.LogInWindow.resources
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\obj\Debug\net6.0-windows\Desktop.MainWindow.resources
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\obj\Debug\net6.0-windows\Desktop.csproj.GenerateResource.cache
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\obj\Debug\net6.0-windows\Desktop.GeneratedMSBuildEditorConfig.editorconfig
@@ -25,3 +24,5 @@ C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\bin\
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\obj\Debug\net6.0-windows\Desktop.csproj.AssemblyReference.cache
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\obj\Debug\net6.0-windows\Desktop.csproj.Up2Date
+C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\obj\Debug\net6.0-windows\Desktop.MainMenu.resources
+C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Desktop\obj\Debug\net6.0-windows\Desktop.Forms.LogIn.resources

@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\desktop\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\models\\productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:models\\productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\desktop\\db\\productovendidodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:db\\productovendidodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\desktop\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\desktop\\db\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:db\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\desktop\\db\\productodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:db\\productodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\desktop\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\desktop\\mainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A23E736-8A6C-4FCB-8695-E86D5E2FEA84}|Desktop.csproj|solutionrelative:mainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductoVendidoData.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\DB\\ProductoVendidoData.cs",
-              "RelativeDocumentMoniker": "DB\\ProductoVendidoData.cs",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\DB\\ProductoVendidoData.cs",
-              "RelativeToolTip": "DB\\ProductoVendidoData.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAwwDkAAABAAAAA",
+              "DocumentIndex": 6,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Forms\\LogIn.cs",
+              "RelativeDocumentMoniker": "Forms\\LogIn.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Forms\\LogIn.cs",
+              "RelativeToolTip": "Forms\\LogIn.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAYwFUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T00:00:27.839Z",
+              "WhenOpened": "2024-06-03T02:13:01.657Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoVendido.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Models\\ProductoVendido.cs",
-              "RelativeDocumentMoniker": "Models\\ProductoVendido.cs",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Models\\ProductoVendido.cs",
-              "RelativeToolTip": "Models\\ProductoVendido.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "ProductoData.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\DB\\ProductoData.cs",
+              "RelativeDocumentMoniker": "DB\\ProductoData.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\DB\\ProductoData.cs",
+              "RelativeToolTip": "DB\\ProductoData.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T23:53:36.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Models\\Producto.cs",
-              "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA5wDMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T22:49:43.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainWindow.cs",
-              "RelativeDocumentMoniker": "MainWindow.cs",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainWindow.cs",
-              "RelativeToolTip": "MainWindow.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAiwJgAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T19:14:24.638Z",
+              "WhenOpened": "2024-06-03T23:52:50.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainWindow.cs",
-              "RelativeDocumentMoniker": "MainWindow.cs",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainWindow.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MainWindow.cs [Dise\u00F1o]",
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\DB\\DataManager.cs",
+              "RelativeDocumentMoniker": "DB\\DataManager.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\DB\\DataManager.cs",
+              "RelativeToolTip": "DB\\DataManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T19:08:52.082Z"
+              "WhenOpened": "2024-06-03T23:51:38.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogIn.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Forms\\LogIn.cs",
+              "RelativeDocumentMoniker": "Forms\\LogIn.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Forms\\LogIn.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\LogIn.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T02:11:01.471Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MainMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T20:17:55.269Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:54:34.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T02:13:55.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainMenu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainMenu.Designer.cs",
+              "RelativeDocumentMoniker": "MainMenu.Designer.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Desktop\\MainMenu.Designer.cs",
+              "RelativeToolTip": "MainMenu.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T20:17:08.742Z",
+              "EditorCaption": ""
             }
           ]
         }
