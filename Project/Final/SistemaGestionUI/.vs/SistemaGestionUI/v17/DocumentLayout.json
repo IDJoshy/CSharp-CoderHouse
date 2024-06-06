@@ -9,9 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\forms\\productosvendidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|solutionrelative:forms\\productosvendidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98059455-CB2A-4940-A29C-CFFA131E408F}|..\\SistemaGestionEntities\\SistemaGestionEntities.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\final\\sistemagestionentities\\productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,19 +29,8 @@
               "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\Forms\\ProductosVendidos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\ProductosVendidos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T23:37:54.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoVendido.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionEntities\\ProductoVendido.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionEntities\\ProductoVendido.cs",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionEntities\\ProductoVendido.cs",
-              "RelativeToolTip": "..\\SistemaGestionEntities\\ProductoVendido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T23:37:46.945Z"
+              "WhenOpened": "2024-06-05T23:37:54.321Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",

@@ -428,10 +428,10 @@ namespace SistemaGestionUI
             // lblHome
             // 
             lblHome.AutoSize = true;
-            lblHome.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            lblHome.Location = new Point(19, 26);
+            lblHome.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            lblHome.Location = new Point(13, 25);
             lblHome.Name = "lblHome";
-            lblHome.Size = new Size(151, 15);
+            lblHome.Size = new Size(190, 21);
             lblHome.TabIndex = 0;
             lblHome.Text = "> Gestor de ventas";
             // 
