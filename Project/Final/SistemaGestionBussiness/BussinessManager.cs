@@ -2,7 +2,7 @@
 
 namespace SistemaGestionBussiness
 {
-    static class BussinessManager
+    public static class BussinessManager
     {
         private static string _connection;
 

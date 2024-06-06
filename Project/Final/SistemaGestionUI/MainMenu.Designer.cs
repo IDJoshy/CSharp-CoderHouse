@@ -53,6 +53,7 @@ namespace SistemaGestionUI
             lblUserName = new Label();
             pbUserImage = new PictureBox();
             tbSearch = new TextBox();
+            pDesktop = new Panel();
             ((System.ComponentModel.ISupportInitialize)pblabel).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbSeparator).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbSearch).BeginInit();
@@ -169,7 +170,7 @@ namespace SistemaGestionUI
             btnReports.Padding = new Padding(40, 0, 25, 0);
             btnReports.Size = new Size(200, 50);
             btnReports.TabIndex = 8;
-            btnReports.Text = "Reportes";
+            btnReports.Text = "Productos Ventas";
             btnReports.TextAlign = ContentAlignment.MiddleLeft;
             btnReports.TextColor = Color.WhiteSmoke;
             btnReports.TextImageRelation = TextImageRelation.TextBeforeImage;
@@ -214,6 +215,7 @@ namespace SistemaGestionUI
             btnProductos.Dock = DockStyle.Top;
             btnProductos.FlatAppearance.BorderSize = 0;
             btnProductos.FlatStyle = FlatStyle.Flat;
+            btnProductos.Font = new Font("Consolas", 10F, FontStyle.Bold);
             btnProductos.ForeColor = Color.WhiteSmoke;
             btnProductos.Image = Properties.Resources.Products;
             btnProductos.ImageAlign = ContentAlignment.MiddleRight;
@@ -316,10 +318,10 @@ namespace SistemaGestionUI
             // lblSubTitle
             // 
             lblSubTitle.AutoSize = true;
-            lblSubTitle.Font = new Font("Terminus (TTF) for Windows", 9F, FontStyle.Bold);
-            lblSubTitle.Location = new Point(100, 84);
+            lblSubTitle.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
+            lblSubTitle.Location = new Point(104, 83);
             lblSubTitle.Name = "lblSubTitle";
-            lblSubTitle.Size = new Size(85, 17);
+            lblSubTitle.Size = new Size(90, 21);
             lblSubTitle.TabIndex = 2;
             lblSubTitle.Text = "Gestor Ventas";
             lblSubTitle.UseCompatibleTextRendering = true;
@@ -328,10 +330,10 @@ namespace SistemaGestionUI
             // 
             lblTitle.Anchor = AnchorStyles.Left;
             lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Terminus (TTF) for Windows", 15F, FontStyle.Bold);
+            lblTitle.Font = new Font("Segoe UI Black", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitle.Location = new Point(69, 50);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(100, 26);
+            lblTitle.Size = new Size(114, 33);
             lblTitle.TabIndex = 1;
             lblTitle.Text = "Ephemeral";
             lblTitle.UseCompatibleTextRendering = true;
@@ -366,10 +368,10 @@ namespace SistemaGestionUI
             // 
             lblTypeUser.AutoSize = true;
             lblTypeUser.BackColor = Color.Transparent;
-            lblTypeUser.Font = new Font("Terminus (TTF) for Windows", 9F, FontStyle.Bold);
-            lblTypeUser.Location = new Point(49, 31);
+            lblTypeUser.Font = new Font("Segoe UI Semilight", 9F);
+            lblTypeUser.Location = new Point(49, 24);
             lblTypeUser.Name = "lblTypeUser";
-            lblTypeUser.Size = new Size(79, 17);
+            lblTypeUser.Size = new Size(72, 21);
             lblTypeUser.TabIndex = 2;
             lblTypeUser.Text = "Tipo de User";
             lblTypeUser.UseCompatibleTextRendering = true;
@@ -379,11 +381,11 @@ namespace SistemaGestionUI
             lblUserName.Anchor = AnchorStyles.Left;
             lblUserName.AutoSize = true;
             lblUserName.BackColor = Color.Transparent;
-            lblUserName.Font = new Font("Terminus (TTF) for Windows", 9F, FontStyle.Bold);
+            lblUserName.Font = new Font("Segoe UI Semilight", 9F);
             lblUserName.ImageAlign = ContentAlignment.MiddleLeft;
-            lblUserName.Location = new Point(49, 8);
+            lblUserName.Location = new Point(49, 5);
             lblUserName.Name = "lblUserName";
-            lblUserName.Size = new Size(91, 17);
+            lblUserName.Size = new Size(93, 21);
             lblUserName.TabIndex = 1;
             lblUserName.Text = "Nombre de User";
             lblUserName.UseCompatibleTextRendering = true;
@@ -411,6 +413,15 @@ namespace SistemaGestionUI
             tbSearch.TabIndex = 5;
             tbSearch.KeyPress += tbSearch_KeyPress;
             // 
+            // pDesktop
+            // 
+            pDesktop.BackColor = Color.Transparent;
+            pDesktop.Dock = DockStyle.Fill;
+            pDesktop.Location = new Point(200, 63);
+            pDesktop.Name = "pDesktop";
+            pDesktop.Size = new Size(700, 537);
+            pDesktop.TabIndex = 4;
+            // 
             // MainMenu
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -418,6 +429,7 @@ namespace SistemaGestionUI
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(900, 600);
             ControlBox = false;
+            Controls.Add(pDesktop);
             Controls.Add(pViewSeparator);
             Controls.Add(pTool);
             Controls.Add(pSideBar);
@@ -470,5 +482,6 @@ namespace SistemaGestionUI
         private Label lblTypeUser;
         private PictureBox pbSeparator;
         private PictureBox pViewSeparator;
+        private Panel pDesktop;
     }
 }

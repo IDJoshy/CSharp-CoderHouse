@@ -2,6 +2,7 @@ using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
 using SistemaGestionUI.Design;
+using SistemaGestionUI.Forms;
 
 namespace SistemaGestionUI
 {
@@ -73,6 +74,23 @@ namespace SistemaGestionUI
 
         #endregion
 
+        private Form _currentChildForm;
+
+        void OpenChildForm(Form form)
+        {
+            if(_currentChildForm != null)
+            {
+                _currentChildForm.Close();
+            }
+            _currentChildForm = form;
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.Dock = DockStyle.Fill;
+            pDesktop.Controls.Add(form);
+            pDesktop.Tag = form;
+            form.BringToFront();
+            form.Show();
+        }
 
         public MainMenu()
         {
@@ -80,6 +98,7 @@ namespace SistemaGestionUI
 
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            ButtonsPressed(0);
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
@@ -121,34 +140,93 @@ namespace SistemaGestionUI
 
         #region Buttons
 
+        private void ButtonsPressed(int index)
+        {
+            switch (index)
+            {
+                case 0:
+                    btnHomeView.Enabled = false;
+                    btnUsuarios.Enabled = true;
+                    btnProductos.Enabled = true;
+                    btnVentas.Enabled = true;
+                    btnReports.Enabled = true;
+                break;
+
+                case 1:
+                    btnHomeView.Enabled = true;
+                    btnUsuarios.Enabled = false;
+                    btnProductos.Enabled = true;
+                    btnVentas.Enabled = true;
+                    btnReports.Enabled = true;
+                    break;
+
+                case 2:
+                    btnHomeView.Enabled = true;
+                    btnUsuarios.Enabled = true;
+                    btnProductos.Enabled = false;
+                    btnVentas.Enabled = true;
+                    btnReports.Enabled = true;
+                    break;
+
+                case 3:
+                    btnHomeView.Enabled = true;
+                    btnUsuarios.Enabled = true;
+                    btnProductos.Enabled = true;
+                    btnVentas.Enabled = false;
+                    btnReports.Enabled = true;
+                    break;
+
+                case 4:
+                    btnHomeView.Enabled = true;
+                    btnUsuarios.Enabled = true;
+                    btnProductos.Enabled = true;
+                    btnVentas.Enabled = true;
+                    btnReports.Enabled = false;
+                    break;
+
+                default:
+                    btnHomeView.Enabled = true;
+                    btnUsuarios.Enabled = true;
+                    btnProductos.Enabled = true;
+                    btnVentas.Enabled = true;
+                    btnReports.Enabled = true;
+                    break;
+            }
+        }
+
         private void btnHomeView_Click(object sender, EventArgs e)
         {
-
+            if(_currentChildForm != null) _currentChildForm.Close();
+            ButtonsPressed(0);
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Usuarios());
+            ButtonsPressed(1);
         }
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Productos());
+            ButtonsPressed(2);
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Ventas());
+            ButtonsPressed(3);
         }
 
         private void btnReports_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new ProductosVendidos());
+            ButtonsPressed(4);
         }
 
         private void bLog_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         #endregion

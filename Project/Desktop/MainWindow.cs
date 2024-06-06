@@ -205,7 +205,7 @@ namespace Desktop
                             IdUsuario = Convert.ToInt32(tbIdUsuario.Text)
                         };
                         ProductoData.CrearProducto(productoNuevo);
-                        MessageBox.Show("Producto Correctamente Añadido", "Listo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Producto Correctamente Aï¿½adido", "Listo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         RefreshDGV(1);
                         break;
                     case "Modificar Producto":
@@ -246,7 +246,7 @@ namespace Desktop
                             IdVenta = Convert.ToInt32(tbIdVenta.Text)
                         };
                         ProductoVendidoData.CrearProductoVendido(productoVendidoNuevo);
-                        MessageBox.Show("Producto Vendido Correctamente Añadido", "Listo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Producto Vendido Correctamente Aï¿½adido", "Listo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         RefreshDGV(2);
                         break;
                     case "Modificar Producto Vendido":

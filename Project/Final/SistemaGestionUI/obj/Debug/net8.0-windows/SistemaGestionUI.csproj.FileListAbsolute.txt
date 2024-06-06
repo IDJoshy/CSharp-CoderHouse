@@ -31,3 +31,7 @@ C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Final\Sistem
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Final\SistemaGestionUI\bin\Debug\net8.0-windows\SistemaGestionEntities.pdb
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Final\SistemaGestionUI\bin\Debug\net8.0-windows\SistemaGestionData.pdb
 C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Final\SistemaGestionUI\obj\Debug\net8.0-windows\SistemaG.4F9030BC.Up2Date
+C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Final\SistemaGestionUI\obj\Debug\net8.0-windows\SistemaGestionUI.Forms.Usuarios.resources
+C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Final\SistemaGestionUI\obj\Debug\net8.0-windows\SistemaGestionUI.Forms.Productos.resources
+C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Final\SistemaGestionUI\obj\Debug\net8.0-windows\SistemaGestionUI.Forms.Ventas.resources
+C:\Users\joshu\OneDrive\Documentos\Source\Joshua-Auristondo\Project\Final\SistemaGestionUI\obj\Debug\net8.0-windows\SistemaGestionUI.Forms.ProductosVendidos.resources

@@ -7,16 +7,11 @@
       "RelativeMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\final\\sistemagestionui\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\final\\sistemagestionui\\forms\\productosvendidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|solutionrelative:forms\\productosvendidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\final\\sistemagestionui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\final\\sistemagestionui\\mainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|solutionrelative:mainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98059455-CB2A-4940-A29C-CFFA131E408F}|..\\SistemaGestionEntities\\SistemaGestionEntities.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\final\\sistemagestionentities\\productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,48 +21,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductosVendidos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\Forms\\ProductosVendidos.cs",
+              "RelativeDocumentMoniker": "Forms\\ProductosVendidos.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\Forms\\ProductosVendidos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\ProductosVendidos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T23:37:54.321Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\MainMenu.cs",
-              "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAUwDcAAAAJAAAA",
+              "Title": "ProductoVendido.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionEntities\\ProductoVendido.cs",
+              "RelativeDocumentMoniker": "..\\SistemaGestionEntities\\ProductoVendido.cs",
+              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionEntities\\ProductoVendido.cs",
+              "RelativeToolTip": "..\\SistemaGestionEntities\\ProductoVendido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T00:43:15.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainMenu.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\MainMenu.Designer.cs",
-              "RelativeDocumentMoniker": "MainMenu.Designer.cs",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\MainMenu.Designer.cs",
-              "RelativeToolTip": "MainMenu.Designer.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAqwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T00:54:51.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-05T00:47:55.669Z",
+              "WhenOpened": "2024-06-05T23:37:46.945Z",
               "EditorCaption": ""
             },
             {
@@ -79,7 +57,7 @@
               "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\MainMenu.cs [Dise\u00F1o]",
               "RelativeToolTip": "MainMenu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T00:37:23.215Z",
+              "WhenOpened": "2024-06-05T22:39:09.359Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
