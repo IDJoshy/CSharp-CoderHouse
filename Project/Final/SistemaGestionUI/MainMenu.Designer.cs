@@ -54,6 +54,7 @@ namespace SistemaGestionUI
             pbUserImage = new PictureBox();
             tbSearch = new TextBox();
             pDesktop = new Panel();
+            lblHome = new Label();
             ((System.ComponentModel.ISupportInitialize)pblabel).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbSeparator).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbSearch).BeginInit();
@@ -63,6 +64,7 @@ namespace SistemaGestionUI
             pTool.SuspendLayout();
             pUserLogged.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbUserImage).BeginInit();
+            pDesktop.SuspendLayout();
             SuspendLayout();
             // 
             // pblabel
@@ -170,7 +172,7 @@ namespace SistemaGestionUI
             btnReports.Padding = new Padding(40, 0, 25, 0);
             btnReports.Size = new Size(200, 50);
             btnReports.TabIndex = 8;
-            btnReports.Text = "Productos Ventas";
+            btnReports.Text = "Productos Vendidos";
             btnReports.TextAlign = ContentAlignment.MiddleLeft;
             btnReports.TextColor = Color.WhiteSmoke;
             btnReports.TextImageRelation = TextImageRelation.TextBeforeImage;
@@ -416,11 +418,22 @@ namespace SistemaGestionUI
             // pDesktop
             // 
             pDesktop.BackColor = Color.Transparent;
+            pDesktop.Controls.Add(lblHome);
             pDesktop.Dock = DockStyle.Fill;
             pDesktop.Location = new Point(200, 63);
             pDesktop.Name = "pDesktop";
             pDesktop.Size = new Size(700, 537);
             pDesktop.TabIndex = 4;
+            // 
+            // lblHome
+            // 
+            lblHome.AutoSize = true;
+            lblHome.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            lblHome.Location = new Point(19, 26);
+            lblHome.Name = "lblHome";
+            lblHome.Size = new Size(151, 15);
+            lblHome.TabIndex = 0;
+            lblHome.Text = "> Gestor de ventas";
             // 
             // MainMenu
             // 
@@ -456,6 +469,8 @@ namespace SistemaGestionUI
             pUserLogged.ResumeLayout(false);
             pUserLogged.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pbUserImage).EndInit();
+            pDesktop.ResumeLayout(false);
+            pDesktop.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -483,5 +498,6 @@ namespace SistemaGestionUI
         private PictureBox pbSeparator;
         private PictureBox pViewSeparator;
         private Panel pDesktop;
+        private Label lblHome;
     }
 }

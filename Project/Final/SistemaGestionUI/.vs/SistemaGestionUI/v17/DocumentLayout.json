@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|c:\\users\\joshu\\onedrive\\documentos\\source\\joshua-auristondo\\project\\final\\sistemagestionui\\forms\\productosvendidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\forms\\productosvendidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6E17CD94-197C-4635-9533-D1CCCE361548}|SistemaGestionUI.csproj|solutionrelative:forms\\productosvendidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -32,8 +32,7 @@
               "ToolTip": "C:\\Users\\joshu\\OneDrive\\Documentos\\Source\\Joshua-Auristondo\\Project\\Final\\SistemaGestionUI\\Forms\\ProductosVendidos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\ProductosVendidos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T23:37:54.321Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-06-05T23:37:54.321Z"
             },
             {
               "$type": "Document",
@@ -45,8 +44,7 @@
               "RelativeToolTip": "..\\SistemaGestionEntities\\ProductoVendido.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T23:37:46.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T23:37:46.945Z"
             },
             {
               "$type": "Document",

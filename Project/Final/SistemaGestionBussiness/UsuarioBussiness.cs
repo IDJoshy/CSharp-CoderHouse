@@ -12,30 +12,30 @@ namespace SistemaGestionBussiness
     {
         public static List<Usuario> Bussiness_ObtenerUsuario(int idUsuario)
         {
-            string _connection = BussinessManager.SetConnection();
+            string _connection = ConnectionManager.SetConnection();
             return DataManager.Data_ObtenerUsuario(idUsuario, _connection);
         }
 
         public static List<Usuario> Bussiness_ListarUsuarios()
         {
-            string _connection = BussinessManager.SetConnection();
+            string _connection = ConnectionManager.SetConnection();
             return DataManager.Data_ListarUsuarios(_connection);
         }
 
         public static void Bussiness_CrearUsuario(Usuario usuario)
         {
-            string _connection = BussinessManager.SetConnection();
+            string _connection = ConnectionManager.SetConnection();
             DataManager.Data_CrearUsuario(usuario, _connection);
         }
 
         public static void Bussiness_ModificarUsuario(Usuario usuario)
         {
-            string _connection = BussinessManager.SetConnection();
+            string _connection = ConnectionManager.SetConnection();
             DataManager.Data_ModificarUsuario(usuario, _connection);
         }
         public static void Bussiness_EliminarUsuario(Usuario usuario)
         {
-            string _connection = BussinessManager.SetConnection();
+            string _connection = ConnectionManager.SetConnection();
             DataManager.Data_EliminarUsuario(usuario, _connection);
         }
     }
