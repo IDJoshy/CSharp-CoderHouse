@@ -10,6 +10,28 @@ namespace SistemaGestionBussiness
 {
     public static class UsuarioBussiness
     {
+        public static bool Bussiness_LogInUsuario(string name, string password)
+        {
+            try 
+            {
+                bool userLogged = DataManager.Data_LogInUsuario(name, password);
+
+                if (userLogged) 
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error al iniciar sesión", e);
+            }
+
+        }
+
         public static List<Usuario> Bussiness_ObtenerUsuario(int idUsuario)
         {
             try

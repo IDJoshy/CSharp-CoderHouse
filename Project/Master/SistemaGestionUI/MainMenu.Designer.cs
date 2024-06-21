@@ -34,7 +34,6 @@ namespace SistemaGestionUI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             pblabel = new PictureBox();
             pbSeparator = new PictureBox();
-            pbSearch = new PictureBox();
             pViewSeparator = new PictureBox();
             bMainMenuExit = new Button();
             pSideBar = new Design.CustomPanel();
@@ -43,21 +42,17 @@ namespace SistemaGestionUI
             btnProductos = new Design.CustomButton();
             btnUsuarios = new Design.CustomButton();
             btnHomeView = new Design.CustomButton();
-            bLog = new Button();
             pLabel = new Panel();
             lblSubTitle = new Label();
             lblTitle = new Label();
             pTool = new Panel();
             pUserLogged = new Panel();
-            lblTypeUser = new Label();
             lblUserName = new Label();
             pbUserImage = new PictureBox();
-            tbSearch = new TextBox();
             pView = new Panel();
             lblHome = new Label();
             ((System.ComponentModel.ISupportInitialize)pblabel).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbSeparator).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbSearch).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pViewSeparator).BeginInit();
             pSideBar.SuspendLayout();
             pLabel.SuspendLayout();
@@ -90,18 +85,6 @@ namespace SistemaGestionUI
             pbSeparator.Size = new Size(200, 10);
             pbSeparator.TabIndex = 1;
             pbSeparator.TabStop = false;
-            // 
-            // pbSearch
-            // 
-            pbSearch.BackColor = Color.Transparent;
-            pbSearch.BackgroundImageLayout = ImageLayout.None;
-            pbSearch.Image = Properties.Resources.Selected;
-            pbSearch.Location = new Point(19, 12);
-            pbSearch.Name = "pbSearch";
-            pbSearch.Size = new Size(25, 25);
-            pbSearch.SizeMode = PictureBoxSizeMode.Zoom;
-            pbSearch.TabIndex = 4;
-            pbSearch.TabStop = false;
             // 
             // pViewSeparator
             // 
@@ -142,7 +125,6 @@ namespace SistemaGestionUI
             pSideBar.Controls.Add(btnProductos);
             pSideBar.Controls.Add(btnUsuarios);
             pSideBar.Controls.Add(btnHomeView);
-            pSideBar.Controls.Add(bLog);
             pSideBar.Controls.Add(pbSeparator);
             pSideBar.Controls.Add(pLabel);
             pSideBar.Dock = DockStyle.Left;
@@ -287,22 +269,6 @@ namespace SistemaGestionUI
             btnHomeView.UseVisualStyleBackColor = false;
             btnHomeView.Click += btnHomeView_Click;
             // 
-            // bLog
-            // 
-            bLog.BackColor = Color.FromArgb(50, 0, 0, 0);
-            bLog.Dock = DockStyle.Bottom;
-            bLog.FlatAppearance.MouseDownBackColor = Color.FromArgb(7, 35, 51);
-            bLog.FlatAppearance.MouseOverBackColor = Color.FromArgb(8, 116, 131);
-            bLog.FlatStyle = FlatStyle.Flat;
-            bLog.ForeColor = Color.Tomato;
-            bLog.Location = new Point(0, 554);
-            bLog.Name = "bLog";
-            bLog.Size = new Size(200, 46);
-            bLog.TabIndex = 3;
-            bLog.Text = "Log-In/Log-Out";
-            bLog.UseVisualStyleBackColor = false;
-            bLog.Click += bLog_Click;
-            // 
             // pLabel
             // 
             pLabel.BackColor = Color.Transparent;
@@ -344,8 +310,6 @@ namespace SistemaGestionUI
             // 
             pTool.BackColor = Color.FromArgb(100, 0, 0, 0);
             pTool.Controls.Add(pUserLogged);
-            pTool.Controls.Add(tbSearch);
-            pTool.Controls.Add(pbSearch);
             pTool.Controls.Add(bMainMenuExit);
             pTool.Dock = DockStyle.Top;
             pTool.Location = new Point(200, 0);
@@ -358,25 +322,12 @@ namespace SistemaGestionUI
             // pUserLogged
             // 
             pUserLogged.BackColor = Color.FromArgb(50, 0, 0, 0);
-            pUserLogged.Controls.Add(lblTypeUser);
             pUserLogged.Controls.Add(lblUserName);
             pUserLogged.Controls.Add(pbUserImage);
             pUserLogged.Location = new Point(499, 0);
             pUserLogged.Name = "pUserLogged";
             pUserLogged.Size = new Size(145, 50);
             pUserLogged.TabIndex = 6;
-            // 
-            // lblTypeUser
-            // 
-            lblTypeUser.AutoSize = true;
-            lblTypeUser.BackColor = Color.Transparent;
-            lblTypeUser.Font = new Font("Segoe UI Semilight", 9F);
-            lblTypeUser.Location = new Point(49, 24);
-            lblTypeUser.Name = "lblTypeUser";
-            lblTypeUser.Size = new Size(72, 21);
-            lblTypeUser.TabIndex = 2;
-            lblTypeUser.Text = "Tipo de User";
-            lblTypeUser.UseCompatibleTextRendering = true;
             // 
             // lblUserName
             // 
@@ -385,7 +336,7 @@ namespace SistemaGestionUI
             lblUserName.BackColor = Color.Transparent;
             lblUserName.Font = new Font("Segoe UI Semilight", 9F);
             lblUserName.ImageAlign = ContentAlignment.MiddleLeft;
-            lblUserName.Location = new Point(49, 5);
+            lblUserName.Location = new Point(49, 17);
             lblUserName.Name = "lblUserName";
             lblUserName.Size = new Size(93, 21);
             lblUserName.TabIndex = 1;
@@ -401,20 +352,6 @@ namespace SistemaGestionUI
             pbUserImage.TabIndex = 0;
             pbUserImage.TabStop = false;
             // 
-            // tbSearch
-            // 
-            tbSearch.AllowDrop = true;
-            tbSearch.BackColor = Color.FromArgb(21, 127, 126);
-            tbSearch.BorderStyle = BorderStyle.None;
-            tbSearch.ForeColor = Color.WhiteSmoke;
-            tbSearch.Location = new Point(50, 17);
-            tbSearch.MaxLength = 100;
-            tbSearch.Name = "tbSearch";
-            tbSearch.PlaceholderText = " Search ";
-            tbSearch.Size = new Size(184, 16);
-            tbSearch.TabIndex = 5;
-            tbSearch.KeyPress += tbSearch_KeyPress;
-            // 
             // pView
             // 
             pView.BackColor = Color.Transparent;
@@ -424,6 +361,7 @@ namespace SistemaGestionUI
             pView.Name = "pView";
             pView.Size = new Size(700, 537);
             pView.TabIndex = 4;
+            pView.Paint += pView_Paint;
             // 
             // lblHome
             // 
@@ -459,13 +397,11 @@ namespace SistemaGestionUI
             Load += MainMenu_Load;
             ((System.ComponentModel.ISupportInitialize)pblabel).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbSeparator).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbSearch).EndInit();
             ((System.ComponentModel.ISupportInitialize)pViewSeparator).EndInit();
             pSideBar.ResumeLayout(false);
             pLabel.ResumeLayout(false);
             pLabel.PerformLayout();
             pTool.ResumeLayout(false);
-            pTool.PerformLayout();
             pUserLogged.ResumeLayout(false);
             pUserLogged.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pbUserImage).EndInit();
@@ -481,9 +417,6 @@ namespace SistemaGestionUI
         private Panel pTool;
         private PictureBox pblabel;
         private Panel pLabel;
-        private Button bLog;
-        private PictureBox pbSearch;
-        private TextBox tbSearch;
         private Label lblTitle;
         private Label lblSubTitle;
         private Design.CustomButton btnHomeView;
@@ -493,11 +426,10 @@ namespace SistemaGestionUI
         private Design.CustomButton btnReports;
         private Panel pUserLogged;
         private PictureBox pbUserImage;
-        private Label lblUserName;
-        private Label lblTypeUser;
         private PictureBox pbSeparator;
         private PictureBox pViewSeparator;
         private Panel pView;
         private Label lblHome;
+        public Label lblUserName;
     }
 }

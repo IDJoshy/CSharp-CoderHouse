@@ -7,7 +7,7 @@
     <Compile Update="Design\CustomPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="Forms\LogIn.cs">
+    <Compile Update="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Productos.cs">

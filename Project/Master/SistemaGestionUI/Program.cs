@@ -23,7 +23,7 @@ namespace SistemaGestionUI
             GC.KeepAlive(mutex);
 
             ApplicationConfiguration.Initialize();
-            Application.Run(new MainMenu());
+            Application.Run(new LogIn());
         }
     }
 }

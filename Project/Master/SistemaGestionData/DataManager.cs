@@ -113,6 +113,13 @@ namespace SistemaGestionData
         #endregion
 
         #region Usuario
+
+        public static bool Data_LogInUsuario(string name, string password)
+        {
+            bool usuarioLogIn = UsuarioData.LogInUsuario(name, password);
+            return usuarioLogIn;
+        }
+
         public static List<Usuario> Data_ObtenerUsuario(int idUsuario)
         {
             List<Usuario> listUsuario = UsuarioData.ObtenerUsuario(idUsuario);

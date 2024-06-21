@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using SistemaGestionBussiness;
 using SistemaGestionEntities;
+using System.Xml.Linq;
 
 namespace SistemaGestionAPI.Controllers
 {
@@ -9,6 +10,14 @@ namespace SistemaGestionAPI.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
+        [HttpGet("GetUsuarioLogIn/{name, password}")]
+        public IActionResult GetUsuarioLogIn(string name, string password)
+        {
+            bool usuarioLogged = UsuarioBussiness.Bussiness_LogInUsuario(name, password);
+
+            return Ok(usuarioLogged);
+        }
+
         [HttpGet(Name = "GetUsuario")]
         public IEnumerable<Usuario> GetUsuario()
         {

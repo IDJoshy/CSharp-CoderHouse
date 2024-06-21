@@ -210,5 +210,9 @@ namespace SistemaGestionUI
 
         #endregion
 
+        private void pView_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

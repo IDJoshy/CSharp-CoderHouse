@@ -6,10 +6,14 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaGestionBussiness;
+using SistemaGestionEntities;
 using SistemaGestionUI.Design;
+
 
 namespace SistemaGestionUI.Forms
 {
@@ -17,10 +21,10 @@ namespace SistemaGestionUI.Forms
     {
         #region Visuals
 
-        public Color gradientTopLeftColor = Color.FromArgb(8, 126, 139);
-        public Color gradientBottomLeftColor = Color.FromArgb(11, 57, 84);
-        public Color gradientTopRightColor = Color.FromArgb(77, 33, 173);
-        public Color gradientBottomRightColor = Color.FromArgb(43, 24, 82);
+        public Color gradientTopLeftColor = Color.FromArgb(32, 178, 170);
+        public Color gradientBottomLeftColor = Color.FromArgb(31, 178, 61);
+        public Color gradientTopRightColor = Color.FromArgb(31, 148, 178);
+        public Color gradientBottomRightColor = Color.FromArgb(31, 178, 61);
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -57,19 +61,28 @@ namespace SistemaGestionUI.Forms
             return bmp;
         }
 
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        private void pToolBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
         #endregion
 
         public LogIn()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 35, 35));
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 10, 10));
         }
 
         private void LogIn_Load(object sender, EventArgs e)
         {
             this.BackgroundImage = Gradient2D(this.ClientRectangle, gradientTopLeftColor, gradientBottomLeftColor, gradientTopRightColor, gradientBottomRightColor);
-
         }
 
         private void btnExitLog_Click(object sender, EventArgs e)
@@ -80,22 +93,46 @@ namespace SistemaGestionUI.Forms
             }
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        private void btnIngresar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Quieres volver al menu principal?", "Warning", MessageBoxButtons.OKCancel) == DialogResult.OK)
-            {
+            string name = tbUserName.Text;
+            string password = tbPassword.Text;
 
+            try
+            {
+                bool isLogged = UsuarioBussiness.Bussiness_LogInUsuario(name, password);
+
+                if (isLogged)
+                {
+                    MessageBox.Show("Datos de inicio de sesión validos", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    MainMenu menu = new MainMenu();
+
+                    menu.lblUserName.Text = name;
+                    menu.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Nombre de usuario y/o contraseña invalidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Datos de inicio de sesión invalidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tbUserName.Clear();
+                tbPassword.Clear();
             }
         }
 
-        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
-        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-        private void pToolBox_MouseDown(object sender, MouseEventArgs e)
+        private void cbPassword_CheckedChanged(object sender, EventArgs e)
         {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
+            tbPassword.UseSystemPasswordChar = !cbPassword.Checked;
+        }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

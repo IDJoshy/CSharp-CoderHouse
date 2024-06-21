@@ -12,6 +12,36 @@ namespace SistemaGestionData
 {
     static class UsuarioData
     {
+
+        internal static bool LogInUsuario(string name, string password)
+        {
+            string query = "SELECT COUNT(*) FROM Usuario WHERE NombreUsuario = @name AND Contraseña = @password";
+
+            bool isLogged;
+
+            using (SqlConnection _connection = DataManager.GetConnection())
+            {
+                using (SqlCommand command = new SqlCommand(query, _connection))
+                {
+                    command.Parameters.AddWithValue("@name", name);
+                    command.Parameters.AddWithValue("@password", password);
+
+                    int count = (int)command.ExecuteScalar();
+
+                    if (count > 0)
+                    {
+                        isLogged = true;
+                    }
+                    else
+                    {
+                        isLogged = false;
+                    }
+                }
+            }
+            return isLogged;
+
+        }
+
         internal static List<Usuario> ObtenerUsuario(int idUsuario)
         {
             List<Usuario> listUsuario = new List<Usuario>();
